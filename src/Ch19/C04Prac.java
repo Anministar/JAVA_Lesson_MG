@@ -20,7 +20,11 @@ package Ch19;
 // ShowInfo() 메서드에서 다운캐스팅하지 않는다.
 // 모든 Parttimer와 Regular 클래스의 객체의 정보를 출력하세요!!
 
+
+
+
 public class C04Prac {
+	
 	public static void main(String[] args) {
 		Parttimer emp1 = new Parttimer("홍길동", "25", "대구", 20000);
 		Regular emp2 = new Regular("서길동", "45", "울산", 50000000);
