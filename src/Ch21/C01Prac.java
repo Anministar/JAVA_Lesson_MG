@@ -1,6 +1,5 @@
 package Ch21;
 
-import java.awt.Shape;
 
 // interface 정의 (Shape)
 // PI (3.14)
@@ -19,7 +18,6 @@ import java.awt.Shape;
 // getRound()			// 2 * (가로 + 세로)
 // getArea()			// 가로 * 세로
 public class C01Prac {
-	public static void main(String[] args) {
 		Shape donut = new Circle(10);
 		donut.getRound();			// 62.8
 		donut.getArea();			// 314
