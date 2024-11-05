@@ -1,4 +1,4 @@
-package Ch25;
+package Ch26;
 
 public class Ch26 {
 	
@@ -44,7 +44,7 @@ public class Ch26 {
 	// 이 두 클래스는 InputStream과 OutputStream의 하위 클래스로, 각각 파일에서 데이터를 읽고 쓰는 기능을 제공
 	
 	
-	// ### FileInputStream 클래스 ###
+	// ### FileInputStream 클래스 & FileOutputStream ###
 	// FileInputStream 및 FileOutputStream은 Java에서 파일 입출력을 담당하는 클래스들
 	// 이 두 클래스는 InputStream과 OutputStream의 하위 클래스로, 각각 파일에서 데이터를 읽고 쓰는 기능을 제공
 	

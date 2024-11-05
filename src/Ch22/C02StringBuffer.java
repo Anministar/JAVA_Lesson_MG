@@ -1,5 +1,8 @@
 package Ch22;
 
+
+
+
 // ### StringBuffer Class ###
 // StringBuffer Class : 문자열을 나타내는 클래스
 // 문자열을 동적으로 변경할 수 있도록 설계되었으며, String 클래스와 달리 내용을 직접 수정할 수 있음.
@@ -24,7 +27,7 @@ public class C02StringBuffer {
 		System.out.println(stringBuffer);  // 출력 : Hello World
 		
 		stringBuffer.insert(6, " Java");
-		System.out.println(stringBuffer); // 출력 : Hello Java World
+		System.out.println(stringBuffer); // 출력 : Hello  JavaWorld
 		
 		stringBuffer.delete(5, 10);
 		System.out.println(stringBuffer); // 출력 :  HelloaWorld

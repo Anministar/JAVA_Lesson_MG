@@ -21,6 +21,8 @@ package Ch22;
 
 // 자동 박싱(Autoboxing)
 // Integer intObject = 42;      // int를 Integer를 자동으로 변환
+						
+
 
 // 자동 언박싱(AutoUnboxing)
 // int intValue = intObject;   // Integer를 int로 자동으로 변환

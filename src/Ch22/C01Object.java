@@ -11,10 +11,13 @@ package Ch22;
 // System.out.println(obj)와 같은 코드에서 객체를 출력할 떄 자동으로 호출
 
 
+
 // 2. equals(Object obj) 메서드   :  두 객체가 동등한지 여부를 비교하는데 사용.
 // 기본 구현은 객체의 참조(주소)를 비교하므로, 실제 동등성 비교를 위해 이 메서드를  재정의할 수 있음.
 // Object 클래스에서 제공되는 equals 메서드는 == 연산자와 동일하게 동작하며, 객체의 레퍼런스(메모리 주소)를 비교
-// but, 객체의 내용을 비교하도록 재정의될 뿐임 ==> 예를 들면 String Class나 Integer Class에서 !!
+// but, 객체의 내용을 비교하도록 재정의될 뿐임 ==> 예를 들면 String Class나 Integer Class에서 !
+
+
 
 
 // 3. hashCode() 메서드           : 객체의 해시 코드 값을 반환

@@ -1,5 +1,6 @@
 package Ch24;
 
+
 import java.util.Scanner;
 
 // #### 예외 처리 ###
